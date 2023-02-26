@@ -1,0 +1,128 @@
+
+body{
+background-color: #D5F5E3;
+}
+
+
+/*......Menu.........*/
+nav {
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+
+/*..............conetenido cajas........*/
+
+#user-info {
+    display: none;
+}
+
+
+.box_center1 {
+    
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box_center2 {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/*....Foto de solicitante......*/
+#user-picture{
+    width: 280px;
+    border-radius: 80%;
+    
+    margin-bottom: 45px;
+    
+}
+
+
+
+.titulos{
+    font-size: 15px;
+    font-family: 'Mynerve', cursive;
+}
+
+/*.........OTRAS PAGINAS.........*/
+
+
+.box_data_people{
+
+   background-color:#F5EEF8 ;
+   border-radius: 5px;
+   width: 600px;
+   height: 500px;
+   margin: auto;
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.......Footer.......*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 8px 0;
+  }
+  
+  .iconos{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .iconos a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .iconos a i {
+    font-size: 24px;
+    color: #333;
+  }
